@@ -19,5 +19,5 @@ def load_raw_csv(DATA_DIR=os.path.join(os.path.dirname(os.path.dirname(__file__)
   #
   # Hopefully this change can be applied directly into a kaggle notebook and the inputs can be adjusted accordingly
   
-  output_df = pd.read_csv(os.path.join(DATA_DIR, train_or_test)
+  output_df = pd.read_csv(os.path.join(DATA_DIR, train_or_test))
   return output_df
